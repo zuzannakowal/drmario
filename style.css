@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    width: max-content;
+    height: max-content ;
+}
+
+.plansza{
+    width: 160px;
+    height: 320px;
+}
+
+td{
+    border: solid black 1px;
+    height: 20px;
+    width: 20px;
+}
+
+div{
+    border: black solid 1px;
+    background-color: blueviolet;
+}
+
+.lewyDiv .prawyDiv{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
