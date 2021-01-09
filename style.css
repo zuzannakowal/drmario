@@ -1,8 +1,22 @@
 body{
-    display: flex;
-    justify-content: flex-start;
     width: max-content;
     height: max-content ;
+}
+
+.latanko{
+    height: 100px;
+    position: relative;
+}
+
+#latajacy{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+}
+
+.boards{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .plansza{
@@ -18,11 +32,50 @@ td{
 
 div{
     border: black solid 1px;
-    background-color: blueviolet;
 }
 
 .lewyDiv .prawyDiv{
     display: flex;
     flex-direction: column;
     width: 160px;
+}
+
+#scoreboard #robaczki{
+    width: 160px;
+    height: 160px;
+}
+
+#malpa{
+    height: 160px;
+    width: 160px;
+}
+
+#tabletka{
+    height: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.pastylka{
+    height: 20px;
+    width: 20px;
+    border: solid black 1px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.levelBoard{
+    height: 160px;
 }

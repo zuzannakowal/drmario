@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <script src="server.js"></script>
 </head>
-<body onload="runMe('plansza')">
-    <div class="lewyDiv">
-        <div></div>
-        <div></div>
+<body onload="runMe('plansza', 'tabletka', 'latajacy')">
+    <div class="latanko">
+        <div id="latajacy"></div>
     </div>
-    <div id="plansza"></div>
-    <div class="prawyDiv">
-        <div></div>
-        <div></div>
+    <div class="boards">
+        <div class="lewyDiv">
+            <div id="scoreboard"></div>
+            <div id="robaczki"></div>
+        </div>
+        <div id="plansza"></div>
+        <div class="prawyDiv">
+            <div id="malpa">
+                <div id="tabletka"></div>
+            </div>
+            <div class="levelBoard"></div>
+        </div>
     </div>
 </body>
 </html>
